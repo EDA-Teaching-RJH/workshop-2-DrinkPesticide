@@ -19,5 +19,5 @@ def percent_to_float(p):
     # convert the float into a percentage multiplier
     p = round((float(p.replace('%', ''))/100), 2)
     return p 
-
+#random useless comment
 main()
