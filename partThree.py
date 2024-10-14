@@ -3,7 +3,7 @@ def main():
     percent = percent_to_float(input("What percentage would you like to charge? " + "%"))
     charge = pounds * percent
     print(f"Charge £{charge:.2f}")
-    # .2f is an f string argument meaning 2 d.p
+    # .2f is an f string argument meaning 2 d.
 
 def pounds_to_float(d):
     print(d)
